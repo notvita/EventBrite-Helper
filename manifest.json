@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "EventBrite helper",
+  "description": "This extension provides some buttons to the EventBrite create page to make life easier",
+  "version": "0.1.0",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+	"default_title": "EventBrite Helper"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.eventbrite.com.au/create"],
+      "css": ["css/styles.css"],
+      "js": ["js/jquery-3.2.1.min.js", "js/main.js"]
+    }
+  ],
+  "permissions": [
+    "activeTab"
+  ],
+  "web_accessible_resources": ["js/script.js"]
+}

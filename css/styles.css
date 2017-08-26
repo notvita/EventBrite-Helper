@@ -1,0 +1,20 @@
+#helper-format-text, 
+#helper-ticket-title,
+#helper-ticket-sale-end {
+	color: #F66830;
+	border-color: #F66830;
+	margin-top: 10px;
+	margin-left: 12px;
+}
+
+#helper-ticket-title {
+	margin-left: 380px;
+}
+
+#helper-format-text:hover, 
+#helper-ticket-title:hover,
+#helper-ticket-sale-end:hover {
+	background-color: #F66830;
+	color: #fff;
+}
+
